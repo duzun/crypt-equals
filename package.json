@@ -1,0 +1,34 @@
+{
+  "name": "crypt-equals",
+  "version": "1.0.0",
+  "description": "Timing attack safe string/buffer comparison",
+  "main": "crypteq.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "test-cov": "npm run test -- --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duzun/crypt-equals.git"
+  },
+  "keywords": [
+    "hash_equals",
+    "crypto",
+    "timing",
+    "attack",
+    "safe",
+    "string",
+    "buffer",
+    "comparison",
+    "equals"
+  ],
+  "author": "Dumitru Uzun <contanct@duzun.me> (https://DUzun.Me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duzun/crypt-equals/issues"
+  },
+  "homepage": "https://github.com/duzun/crypt-equals#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
