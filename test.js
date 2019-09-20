@@ -1,3 +1,5 @@
+/*globals require, describe, test, expect*/
+
 'use strict';
 
 const ceq = require('.');
