@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/duzun/crypt-equals#readme",
   "devDependencies": {
-    "jest": "^25.2.7"
+    "jest": "^26.1.0"
   }
 }
