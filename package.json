@@ -1,6 +1,6 @@
 {
   "name": "crypt-equals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Timing attack safe string/buffer comparison",
   "main": "crypteq.js",
   "scripts": {
