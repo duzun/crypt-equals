@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "description": "Timing attack safe string/buffer comparison",
   "main": "crypteq.js",
+  "types": "crypteq.d.ts",
   "scripts": {
+    "build": "npx tsc --build",
     "test": "jest --forceExit",
     "test-cov": "npm run test -- --coverage"
   },

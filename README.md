@@ -1,6 +1,6 @@
 # crypt-equals
 
-[![Build Status](https://travis-ci.org/duzun/crypt-equals.svg?branch=master)](https://travis-ci.org/duzun/crypt-equals)
+[![Build Status](https://travis-ci.com/duzun/crypt-equals.svg?branch=master)](https://travis-ci.com/duzun/crypt-equals)
 [![codecov](https://codecov.io/gh/duzun/crypt-equals/branch/master/graph/badge.svg)](https://codecov.io/gh/duzun/crypt-equals)
 
 Compares two strings/buffers using the same time whether they're equal or not.
