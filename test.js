@@ -27,8 +27,10 @@ describe('crypt-equals', () => {
 
     expect(() => ceq('crypt-equals', 123)).toThrow(/Both arguments should be of type String or Array/);
 
-    expect(() => ceq(null, 'crypt-equals')).toThrow(/Cannot read property 'length' of/);
-    expect(() => ceq(null, undefined)).toThrow(/Cannot read property 'length' of/);
+    // Cannot read properties of null (reading 'length')
+    // Cannot read property 'length' of
+    expect(() => ceq(null, 'crypt-equals')).toThrow(/Cannot read propert.+'length'/);
+    expect(() => ceq(null, undefined)).toThrow(/Cannot read propert.+'length'/);
   });
 });
 
